@@ -1,0 +1,7 @@
+applications:
+- path: target/JavaHelloWorldApp.war
+  memory: 56M
+  instances: 1
+  domain: mybluemix.net
+  name: SudevJava
+  host: SudevJava
