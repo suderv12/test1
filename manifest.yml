@@ -1,7 +1,5 @@
 applications:
-- path: target/HelloWorld.java
-  memory: 56M
+- memory: 256M
   instances: 1
   domain: mybluemix.net
-  name: SudevJava
-  host: SudevJava
+  
