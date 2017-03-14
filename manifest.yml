@@ -3,5 +3,7 @@ applications:
   name: SudevJS
   instances: 1
   domain: mybluemix.net
-  buildpack: buildpack_nodejs
+  framework: node
+  runtime: node08
+  command: node app.js
   
