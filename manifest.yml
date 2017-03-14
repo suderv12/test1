@@ -2,4 +2,5 @@ applications:
 - memory: 256M
   instances: 1
   domain: mybluemix.net
+  build pack: buildpack_nodejs
   
