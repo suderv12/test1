@@ -1,6 +1,7 @@
 applications:
 - memory: 256M
+  name:SudevJS
   instances: 1
   domain: mybluemix.net
-  build pack: buildpack_nodejs
+  buildpack: buildpack_nodejs
   
